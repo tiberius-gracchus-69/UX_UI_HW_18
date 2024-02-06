@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat";
+}
+/* Formatting for Body Content */
+
+body {
+    background-image: url(‘images/SlideBackground.png’);
+  }
+
+h1
+{text-align: center;
+background-color: white}
+
+.uxSkills {
+    margin-top: 100px;
+}
+
+.flexContainer {
+    background-color: white;
+    display: flex;
+}
+
+.research, .writing, .design {
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.workGrid {
+    display: flex;
+    background: white;
+    align-items: center;
+  }
+  
+.twerk {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin-left: 33%;
+}
+
+div p {
+    text-align: center;
+}
+
+div h3 {
+    text-align: center;
+}
+
+/* Copied Formatting for Heading Nav */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    padding: 1%;
+    width: 85px
+}
+.logo img {
+    width: inherit;
+}
+nav {
+    width: 90%;
+}
+header ul {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+    justify-content: flex-end;
+}
+header li {
+    padding: 30px;
+}
+.logo {
+    text-align: center;
+}
+/* End Copied Formatting for Heading Nav */
+
+/* Copied Formatting for Footer Nav */
+footer {
+    background-color: #373738;
+    margin: 0px;
+}
+footer ul {
+    display: flex;
+    padding: 30px 200px;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    justify-content: space-between;
+}
+/* End Copied Formatting for Footer Nav */
